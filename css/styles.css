@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    background: #343c4e;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header__title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    margin-top: -100px;
+}
+
+.header_slogan {
+    font-size: 28px;
+    line-height: 42px;
+    font-family: 'Merriweather', serif;
+}
+
+.header__arrow {
+    font-size: 48px;
+
+
+    width: 60px;
+    height: 50px;
+    margin-left: -30px;
+
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+.container {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.container a {
+    text-decoration: none;
+    color: #1e2120;
+}
+.container a:hover {
+    text-decoration: none;
+    color: #6479a2;
+}
+.onecol {
+    width: 360px;
+}
+
+.onecol_button {
+    width: 360px;
+}
+.footer {
+    background: #061634;
+    padding: 100px 0 190px 0;
+}
+.footer p {
+    margin: 15px 0 15px 0;
+}
+.onecol h3, p {
+    color: #6479a2;
+}
+
+.footer-icons a {
+    color: #fff;
+    font-size: 32px;
+    padding-right: 15px;
+}
+.footer-icons a:hover {
+    color: #6479a2;
+    transition: 0.2s ease-out;
+}
+.button {
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 12px 15px 12px 15px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    transition: 0.2s ease-out;
+    
+    
+}
+.onecol_button a {
+    
+    color: #fff;
+}
+
+.button:hover{
+
+background-color: #fff;
+}
+.onecol_button a:hover {
+    color: #061634;
+}
+
+
+/* ПРИ ШИРИНЕ ЭКРАНА 1160px И МЕНЕЕ*/
+@media (max-width: 1160px) {
+    .container {
+        width: 75%;
+        display: flex; 
+        flex-direction: column;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    
+    .footer {
+        padding: 30px 0 30px 0;
+    }
+}
+@media (max-width: 460px) {
+    .onecol img {
+        width: 45%;
+    }
+    p {
+        font-size: 12px;
+        width: 150px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .header {
+        height: 300px;
+    }
+    .header__title {
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .header_slogan {
+        font-size: 16px;
+    }
+    .header__arrow {
+        font-size: 16px;
+        padding-top: 100px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .footer-icons a{
+        font-size: 22px;
+    }
+}
