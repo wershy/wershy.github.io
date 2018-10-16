@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+    color: #626262;
+}
+.contenier {
+    width: 1050px;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none; 
+    font-size: 16px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: black;
+}
+a {
+    color: #626262;
+}
+p {font-size: 16px;}
+h3 {
+    font-weight: lighter;
+    color: #c2bcb0;
+    padding-bottom: 18px;
+    font-size: 14px;
+    
+}
+ h2 {
+    font-weight: lighter;
+    font-size: 25px;
+    padding-bottom: 15px;
+ }
+.logo {
+    
+    float: left;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+header {
+    padding: 70px;
+}
+.banner {
+    padding-bottom: 70px;
+}
+.work__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work__content_foto {
+    max-width: 420px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    
+}
+.newsletter {
+    background-color: #f0f0f0;
+    height: 290px;
+}
+.newsletter_email {
+    text-align: center;
+    padding-top: 35px;
+}
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    
+}
+.newsletter_email {
+    padding: 75px 0 150px 0;
+    
+}
+.email {
+    padding: 50px;
+}
+footer {
+    background-color: #f0f0f0;
+    height: 100px;
+    
+}
+.footer_menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
